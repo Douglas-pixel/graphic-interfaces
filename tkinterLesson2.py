@@ -1,0 +1,15 @@
+from tkinter import *
+root = Tk()
+myframe = Frame()
+root.config(bg="pink")
+root.resizable(False, False)
+root.geometry("600x600")
+root.title("lesson 2")
+myframe.pack(side ="top" )
+myframe.config(bg = "grey")
+myframe.config(width="300", height ="300 ")
+myframe.config(relief = "groove")
+myframe.config(bd = "30")
+myframe.config(cursor = "pirate")
+
+root.mainloop()
