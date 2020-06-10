@@ -1,8 +1,9 @@
 from tkinter import *
 root = Tk()
 myframe = Frame()
+myframe2 = Frame()
 root.config(bg="pink")
-root.resizable(False, False)
+root.resizable(False, True)
 root.geometry("600x600")
 root.title("lesson 2")
 myframe.pack(side ="top" )
@@ -12,4 +13,10 @@ myframe.config(relief = "groove")
 myframe.config(bd = "30")
 myframe.config(cursor = "pirate")
 
+myframe2.pack(side ="bottom" )
+myframe2.config(bg = "grey")
+myframe2.config(width="200", height ="300 ")
+myframe2.config(relief = "flat")#"raised", "sunken", "flat", "groove", and "ridge"
+myframe2.config(bd = "30")
+myframe2.config(cursor = "hand2")
 root.mainloop()
